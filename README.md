@@ -2,6 +2,8 @@
 
 Collects [RMQ](https://github.com/adjust/rmq) stats and exposes them as Prometheus Metrics.
 
+Forked from https://github.com/pffreitas/rmqprom
+
  ## How to use it 
  
  ```go
@@ -12,7 +14,7 @@ import (
         "time"
 
         "github.com/adjust/rmq"
-        "github.com/pffreitas/rmqprom"
+        "github.com/yzinkovets/rmqprom"
         "github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
